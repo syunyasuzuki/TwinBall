@@ -316,6 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340420090}
   - component: {fileID: 1340420089}
+  - component: {fileID: 1340420091}
   - component: {fileID: 1340420088}
   - component: {fileID: 1340420087}
   m_Layer: 0
@@ -388,6 +389,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340420091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1340420086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e92dc646b22cb4ea1b8aead416cbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1340420089}
+  targets: []
+  offset: {x: 0, y: 0, z: 0}
+  smoothTime: 0.5
+  minZoom: 40
+  maxxZoom: 10
+  zoomLimiter: 50
 --- !u!1 &1483732858
 GameObject:
   m_ObjectHideFlags: 0
